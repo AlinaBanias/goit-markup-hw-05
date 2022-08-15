@@ -2,5 +2,6 @@
     "git.allowNoVerifyCommit": true,
     "git.allowForcePush": true,
     "git.alwaysShowStagedChangesResourceGroup": true,
-    "git.alwaysSignOff": true
+    "git.alwaysSignOff": true,
+    "liveServer.settings.port": 5501
 }

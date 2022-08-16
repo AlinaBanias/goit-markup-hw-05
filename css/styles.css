@@ -213,7 +213,8 @@ span {
   border-radius: 50%;
   background-color: #ffffff;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-link.cont {
@@ -226,7 +227,8 @@ span {
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 10%);
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon {
   width: 20px;
@@ -262,11 +264,11 @@ span {
   justify-content: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  opacity: 1;
-  transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-icon {
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .clients-link:hover .clients-icon,
 .clients-link:focus .clients-icon {
@@ -275,7 +277,7 @@ span {
 .clients-link:hover,
 .clients-link:focus {
   border-color: var(--accent-color);
-  opacity: 1;
+ 
 }
 /* Modalka */
 .backdrop.is-hidden {

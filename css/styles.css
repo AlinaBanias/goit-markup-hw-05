@@ -125,7 +125,7 @@ span {
 .work .lst + .lst {
   margin-left: 45px;
 }
-.photo {
+.photo-label {
   position: relative;
 }
 /* .photo-label::after{
@@ -159,6 +159,7 @@ span {
 
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #ffffff;
 
   background-color: rgba(47, 48, 58, 0.8);
 }
@@ -214,7 +215,8 @@ span {
   background-color: #ffffff;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-link.cont {
@@ -225,7 +227,7 @@ span {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: rgba(0, 0, 0, 10%);
+  background-color: rgba(255, 255, 255, 10%);
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
